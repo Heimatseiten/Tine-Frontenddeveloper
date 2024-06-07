@@ -36,6 +36,10 @@ p {
   font-size: 18px;
   line-height: 1.5;
 }
+img {
+  width: 400px;
+  border-radius: 10px;
+}
 
 .navigation-links {
   display: flex;
@@ -51,7 +55,7 @@ p {
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
-  text-transform: capitalize;
+
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
@@ -71,13 +75,19 @@ p {
   text-align: center;
   display: block;
 }
-
-.about-paragraphs {
-  margin: 30px 0;
+.about-section {
+  padding: 160px 20px;
 }
-
-.about-paragraphs p {
-  margin: 10px;
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+.about-section-content {
+  margin: 50px;
 }
 
 .email-link {
@@ -107,5 +117,9 @@ p {
     display: block;
     text-align: center;
     margin: 0 20px;
+  }
+  .about-section {
+    text-align: center;
+    padding: 0;
   }
 }
