@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #6c63ff;
-  --secondary-color: #f5f2fe;
+  --primary-color: #468faf;
+  --secondary-color: #de8897;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -85,11 +85,10 @@ img {
   margin: 50px;
 }
 .logo {
-  max-width: 150px;
+  max-width: 300px;
 }
 .logo1 {
-  max-height: 100px;
-  max-width: 100px;
+  max-width: 200px;
 }
 nav {
   padding: 20px 0;
@@ -114,7 +113,7 @@ footer li a {
 
 nav a:hover,
 nav li.active a {
-  color: var(--primary-color);
+  color: #de8897;
   transition: all 100ms ease-in-out;
 }
 @media (max-width: 576px) {
