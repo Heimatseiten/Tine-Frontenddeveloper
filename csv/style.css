@@ -5,7 +5,7 @@
 }
 
 body {
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom: 100px;
 }
 
@@ -106,16 +106,35 @@ footer li {
   margin-left: 15px;
 }
 nav a,
-footer li a {
+footer .email-link {
   text-decoration: none;
-  color: #272142;
+  color: #468faf;
+  font-size: 24px;
+  text-align: center;
 }
-
+footer {
+  margin: 60px 0;
+}
+footer .email-link:hover,
 nav a:hover,
 nav li.active a {
   color: #de8897;
   transition: all 100ms ease-in-out;
 }
+footer .socialmedia a {
+  margin: 0 20px;
+  color: #de8897;
+  background: #468faf;
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+footer .socialmedia a:hover {
+  color: #468faf;
+  background: #de8897;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 48px;
