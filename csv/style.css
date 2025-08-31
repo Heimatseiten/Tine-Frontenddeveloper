@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #468faf;
-  --secondary-color: #de8897;
+  --primary-color: #9b7da1;
+  --secondary-color: #d98c50;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -8,26 +8,26 @@ body {
   margin-top: 50px;
   margin-bottom: 100px;
 }
+h2 {
+  font-size: 40px;
+}
 
 h1,
 h2,
 h3 {
-  font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
+  font-family: "Poppins", sans-serif;
 
   margin: 0;
+  text-align: center;
 }
 
 h1 {
-  font-size: 96px;
-}
-
-h2 {
-  font-size: 48px;
+  font-size: 40px;
+  color: #9b7da1;
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 50px;
   opacity: 0.7;
   margin-top: 20px;
 }
@@ -36,9 +36,26 @@ p {
   font-size: 18px;
   line-height: 1.5;
 }
+
 img {
   width: 400px;
   border-radius: 10px;
+}
+.herocenter {
+  display: flex;
+  justify-content: center;
+}
+img.logofull {
+  width: 100%;
+}
+img.logosmall {
+  width: 100%;
+}
+img.sublogo {
+  width: 800px;
+}
+img.signature {
+  width: 400px;
 }
 
 .navigation-links {
@@ -58,7 +75,7 @@ img {
 
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
-  color: white;
+  color: #d98c50;
 }
 
 .content-container {
@@ -85,10 +102,10 @@ img {
   margin: 50px;
 }
 .logo {
-  max-width: 300px;
+  max-width: 100px;
 }
 .logo1 {
-  max-width: 100px;
+  max-width: 25px;
 }
 nav {
   padding: 20px 0;
@@ -123,8 +140,8 @@ nav li.active a {
 }
 footer .socialmedia a {
   margin: 0 20px;
-  color: #de8897;
-  background: #468faf;
+  color: #9b7da1;
+  background: #d98c50;
   padding: 10px 14px;
   font-size: 18px;
   border-radius: 50%;
@@ -135,7 +152,7 @@ footer .socialmedia a:hover {
   background: #de8897;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 800px) {
   h1 {
     font-size: 48px;
     line-height: 1.5;
@@ -146,6 +163,15 @@ footer .socialmedia a:hover {
   }
   p {
     text-align: center;
+  }
+  img.logofull {
+    width: 400px;
+  }
+  img.sublogo {
+    width: 400px;
+  }
+  img.signature {
+    width: 200px;
   }
   .project-link {
     display: block;
